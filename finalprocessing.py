@@ -23,7 +23,7 @@ def load_upload(input):
 
 def load_local():
     # Create Data Frame
-    df_knn = pd.read_csv("FINAL SHEET.csv")
+    df_knn = pd.read_csv("Final Sheet.csv")
 
     # Sample data used to show the head
     # global df
