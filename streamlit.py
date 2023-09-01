@@ -28,7 +28,7 @@ import plotly.express as px
 
 
 def introduction():
-    st.title("Clustering Patients based on their test Results using KNN")
+    st.title("Clustering Patients based on their test Results using KMeans Clustering")
     col1, col2 = st.sidebar.columns(2)
     with col1:
         st.sidebar.markdown(
